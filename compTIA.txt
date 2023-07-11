@@ -1,0 +1,541 @@
+CompTIA CS0-001 Exam Syllabus Topics:
+Topic	Details
+Threat Management 27%
+Given a scenario, apply environmental reconnaissance techniques using appropriate tools and processes.	1. Procedures/common tasks
+Topology discovery
+OS fingerprinting
+Service discovery
+Packet capture
+Log review
+Router/firewall ACLs review
+Email harvesting
+Social media profiling
+Social engineering
+DNS harvesting
+Phishing
+
+2. Variables
+
+Wireless vs. wired
+Virtual vs. physical
+Internal vs. external
+On-premises vs. cloud
+
+3. Tools
+
+NMAP
+Host scanning
+Network mapping
+NETSTAT
+Packet analyzer
+IDS/IPS
+HIDS/NIDS
+Firewall rule-based and logs
+Syslog
+Vulnerability scanner
+Given a scenario, analyze the results of a network reconnaissance.	
+
+1. Point-in-time data analysis
+Packet analysis
+Protocol analysis
+Traffic analysis
+Netflow analysis
+Wireless analysis
+
+2. Data correlation and analytics
+
+Anomaly analysis
+Trend analysis
+Availability analysis
+Heuristic analysis
+Behavioral analysis
+
+3. Data output
+
+Firewall logs
+Packet captures
+NMAP scan results
+Event logs
+Syslogs
+IDS report
+
+4. Tools
+
+SIEM
+Packet analyzer
+IDS
+Resource monitoring tool
+Netflow analyzer
+Given a network-based threat, implement or recommend the appropriate response and countermeasure.	1. Network segmentation
+System isolation
+Jump box
+
+2. Honeypot
+3. Endpoint security
+4. Group policies
+5. ACLs
+
+Sinkhole
+6. Hardening
+
+Mandatory Access Control (MAC)
+Compensating controls
+Blocking unused ports/services
+Patching
+
+7. Network Access Control (NAC)
+
+Time-based
+Rule-based
+Role-based
+Location-based
+Explain the purpose of practices used to secure a corporate environment.	1. Penetration testing
+Rules of engagement
+Timing
+Scope
+Authorization
+Exploitation
+Communication
+Reporting
+
+2. Reverse engineering
+
+Isolation/sandboxing
+Hardware
+Source authenticity of hardware
+Trusted foundry
+OEM documentation
+Software/malware
+Fingerprinting/hashing
+Decomposition
+
+3. Training and exercises
+
+Red team
+Blue team
+White team
+
+4. Risk evaluation
+
+Technical control review
+Operational control review
+Technical impact and likelihood
+High
+Medium
+Low
+Vulnerability Management 26%
+Given a scenario, implement an information security vulnerability management process.	1. Identification of requirements
+Regulatory environments
+Corporate policy
+Data classification
+Asset inventory
+Critical
+Non-critical
+
+2. Establish scanning frequency
+
+Risk appetite
+Regulatory requirements
+Technical constraints
+Workflow
+
+3. Configure tools to perform scans according to specification
+
+Determine scanning criteria
+Sensitivity levels
+Vulnerability feed
+Scope
+Credentialed vs. non-credentialed
+Types of data
+Server-based vs. agent-based
+Tool updates/plug-ins
+SCAP
+
+Permissions and access
+4. Execute scanning
+5. Generate reports
+Automated vs. manual distribution
+6. Remediation
+
+Prioritizing
+Criticality
+Difficulty of implementation
+Communication/change control
+Sandboxing/testing
+Inhibitors to remediation
+MOUs
+SLAs
+Organizational governance
+Business process interruption
+Degrading functionality
+
+7. Ongoing scanning and continuous monitoring
+Given a scenario, analyze the output resulting from a vulnerability scan.
+
+1. Analyze reports from a vulnerability scan
+
+Review and interpret scan results
+Identify false positives
+Identify exceptions
+Prioritize response actions
+
+2. Validate results and correlate other data points
+
+Compare to best practices or compliance
+Reconcile results
+Review related logs and/ or other data sources
+Determine trends
+Compare and contrast common vulnerabilities found in the following targets within an organization.
+
+1. Servers
+2. Endpoints
+3. Network infrastructure
+4. Network appliances
+5. Virtual infrastructure
+Virtual hosts
+Virtual networks
+Management interface
+6. Mobile devices
+7. Interconnected networks
+8. Virtual Private Networks (VPNs)
+9. Industrial Control Systems (ICSs)
+10. SCADA devices
+Cyber Incident Response 23%
+Given a scenario, distinguish threat data or behavior to determine the impact of an incident.	1. Threat classification
+Known threats vs. unknown threats
+Zero day
+Advanced persistent threat
+
+2. Factors contributing to incident severity and prioritization
+Scope of impact
+Downtime
+Recovery time
+Data integrity
+Economic
+System process criticality
+Types of data
+Personally Identifiable
+Information (PII)
+Personal Health Information (PHI)
+Payment card information
+Intellectual property
+Corporate confidential
+Accounting data
+Mergers and acquisitions
+Given a scenario, prepare a toolkit and use appropriate forensics tools during an investigation.	1. Forensics kit
+Digital forensics workstation
+Write blockers
+Cables
+Drive adapters
+Wiped removable media
+Cameras
+Crime tape
+Tamper-proof seals
+Documentation/forms
+Chain of custody form
+Incident response plan
+Incident form
+Call list/escalation list
+
+2. Forensic investigation suite
+Imaging utilities
+Analysis utilities
+Chain of custody
+Hashing utilities
+OS and process analysis
+Mobile device forensics
+Password crackers
+Cryptography tools
+Log viewers
+Explain the importance of communication during the incident response process.	1. Stakeholders
+HR
+Legal
+Marketing
+Management
+
+2. Purpose of communication processes
+Limit communication to trusted parties
+Disclosure based on regulatory/ legislative requirements
+Prevent inadvertent release of information
+Secure method of communication
+
+3. Role-based responsibilities
+Technical
+Management
+Law enforcement
+Retain incident response provider
+Given a scenario, analyze common symptoms to select the best course of action to support incident response.	1. Common network-related symptoms
+Bandwidth consumption
+Beaconing
+Irregular peer-to-peer communication
+Rogue devices on the network
+Scan sweeps
+Unusual traffic spikes
+
+2. Common host-related symptoms
+
+Processor consumption
+Memory consumption
+Drive capacity consumption
+Unauthorized software
+Malicious processes
+Unauthorized changes
+Unauthorized privileges
+Data exfiltration
+
+​3. Common application-related symptoms
+
+Anomalous activity
+Introduction of new accounts
+Unexpected output
+Unexpected outbound communication
+Service interruption
+Memory overflows
+Summarize the incident recovery and post-incident response process.	1. Containment techniques
+Segmentation
+Isolation
+Removal
+Reverse engineering
+
+2. Eradication techniques
+Sanitization
+Reconstruction/reimage
+Secure disposal
+
+3. Validation
+Patching
+Permissions
+Scanning
+Verify logging/communication to security monitoring
+
+4. Corrective actions
+Lessons learned report
+Change control process
+Update incident response plan
+
+5. Incident summary report
+Security Architecture and Tool Sets 24%
+Explain the relationship between frameworks, common policies, controls, and procedures.
+
+1. Regulatory compliance
+2. Frameworks
+NIST
+ISO
+COBIT
+SABSA
+TOGAF
+ITIL
+
+​3. Policies
+Password policy
+Acceptable use policy
+Data ownership policy
+Data retention policy
+Account management policy
+Data classification policy
+
+4. Controls
+Control selection based on criteria
+Organizationally defined parameters
+Physical controls
+Logical controls
+Administrative controls
+
+5. Procedures
+Continuous monitoring
+Evidence production
+Patching
+Compensating control development
+Control testing procedures
+Manage exceptions
+Remediation plans
+
+6. Verifications and quality control
+Audits
+Evaluations
+Assessments
+Maturity model
+Certification
+Given a scenario, use data to recommend remediation of security issues related to identity and access management.	1. Security issues associated with context-based authentication
+Time
+Location
+Frequency
+Behavioral
+
+2. Security issues associated with identities
+Personnel
+Endpoints
+Servers
+Services
+Roles
+Applications
+
+3. Security issues associated with identity repositories
+Directory services
+TACACS+
+RADIUS
+
+4. Security issues associated with federation and single sign-on
+Manual vs. automatic provisioning/deprovisioning
+Self-service password reset
+
+5. Exploits
+Impersonation
+Man-in-the-middle
+Session hijack
+Cross-site scripting
+Privilege escalation
+Rootkit
+Given a scenario, review security architecture and make recommendations to implement compensating controls.	
+1. Security data analytics
+2.Data aggregation and correlation
+3.Trend analysis
+4.Historical analysis
+
+2. Manual review
+Firewall log
+Syslogs
+Authentication logs
+Event logs
+
+3. Defense in depth
+Personnel
+Training
+Dual control
+Separation of duties
+Third party/consultants
+Cross training
+Mandatory vacation
+Succession planning
+Processes
+Continual improvement
+Scheduled reviews
+Retirement of processes
+Technologies
+Automated reporting
+Security appliances
+Security suites
+Outsourcing
+- Security as a Service
+Cryptography
+Other security concepts
+Network design
+Network segmentation
+Given a scenario, use application security best practices while participating in the Software Development Life Cycle (SDLC).	1. Best practices during software development
+Security requirements definition
+Security testing phases
+Static code analysis
+Web app vulnerability scanning
+Fuzzing
+Use interception proxy to crawl application
+Manual peer reviews
+User acceptance testing
+Stress test application
+Security regression testing
+Input validation
+
+2. Secure coding best practices
+OWASP
+SANS
+Center for Internet Security
+- System design recommendations
+- Benchmarks
+Compare and contrast the general purpose and reasons for using various cybersecurity tools and technologies.	1. Preventative
+IPS
+Sourcefire
+Snort
+Bro
+HIPS
+Firewall
+Cisco
+Palo Alto
+Check Point
+Antivirus
+Anti-malware
+EMET
+Web proxy
+Web Application Firewall (WAF)
+ModSecurity
+NAXSI
+Imperva
+
+​2. Collective
+SIEM
+ArcSight
+QRadar
+Splunk
+AlienVault
+OSSIM
+Kiwi Syslog
+Network scanning
+NMAP
+Vulnerability scanning
+Qualys
+Nessus
+OpenVAS
+Nexpose
+Nikto
+Microsoft Baseline Security Analyzer
+Packet capture
+Wireshark
+tcpdump
+Network General
+Aircrack-ng
+Command line/IP utilities
+netstat
+ping
+tracert/traceroute
+ipconfig/ifconfig
+nslookup/dig
+Sysinternals
+OpenSSL
+IDS/HIDS
+Bro
+
+3. Analytical
+Vulnerability scanning
+Qualys
+Nessus
+OpenVAS
+Nexpose
+Nikto
+Microsoft Baseline Security Analyzer
+Monitoring tools
+MRTG
+Nagios
+SolarWinds
+Cacti
+NetFlow Analyzer
+Interception proxy
+Burp Suite
+Zap
+Vega
+
+4. Exploit
+Interception proxy
+Burp Suite
+Zap
+Vega
+Exploit framework
+Metasploit
+Nexpose
+Fuzzers
+Untidy
+Peach Fuzzer
+Microsoft SDL File/Regex Fuzzer
+
+​5. Forensics
+Forensic suites
+EnCase
+FTK
+Helix
+Sysinternals
+Cellebrite
+Hashing
+MD5sum
+SHAsum
+Password cracking
+John the Ripper
+Cain & Abel
+Imaging
+DD
